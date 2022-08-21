@@ -14,8 +14,7 @@ if 1<= qtd_canais <= 200:
     print("-----")
     print("BÔNUS")
     print("-----")
-    print("")
-
+ 
 
     for canal in canais:
         canal[3] = (canal[3] == "sim")
